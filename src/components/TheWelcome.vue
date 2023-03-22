@@ -30,7 +30,7 @@ function select() {
       }).then((res:any)=>{
         result.value.push({
           key,
-          quota:res.data.total_usage,
+          quota:res.data.total_usage/100,
           status: '正常'
         })
       }).catch((err:any)=>{
