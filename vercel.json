@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "routes": [
+        {"src": "/openai/(.*)","dest": "https://api.openai.com/$1"}
+    ]
+}
