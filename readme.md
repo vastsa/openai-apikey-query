@@ -5,6 +5,8 @@ pnpm install
 # 构建
 pnpm build
 ```
+# 案例
+http://open.isvs.me/
 
 # 可能需要修改的
 ## -> OpenAI 接口地址
